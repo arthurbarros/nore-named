@@ -1,0 +1,22 @@
+{
+        "name": "nore-named",
+        "description": "nore-named is a simple DNS server writing in Node.js and Redis",
+        "version": "0.0.1",
+        "author": "arthurbarros <arthbarros@gmail.com>",
+        "repository": {
+                "type": "git",
+                "url": "git://github.com/trevoro/nore-named.git"
+        },
+        "main": "server.js",
+        "engines": {
+                "node": ">=0.6"
+        },
+        "dependencies": {
+                "node-named": "0.0.1",
+                "redis": "0.8.4",
+                "express": "3.3.4"
+        },
+        "devDependencies": {
+                "nodeunit": "0.7.4"
+        }
+}
