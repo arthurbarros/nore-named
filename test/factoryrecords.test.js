@@ -10,9 +10,9 @@ describe('FactoryRecords', function(){
             var factory = new FactoryRecords();
             var aRecord = new ARecord('8.8.8.8');
             var buildObject = { 
-            nome: 'google.com',
+            name: 'google.com',
                 properties: {
-                    typo: 'A',
+                    type: 'A',
                     ttl: 400,
                     resolve_to: '8.8.8.8'
                 }
