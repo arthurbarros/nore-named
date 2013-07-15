@@ -1,6 +1,5 @@
-var noreNS = require('./lib/nore-ns'),
-	express = require('express');
+var noreNS = require('./lib/nore-ns').createServer(9998);
 
-noreNS = new noreNS({port: 9999})
-noreNS.createServer();
+
+
 
